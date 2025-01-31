@@ -1,0 +1,62 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+body {
+    background-color: #d4be98;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #574833
+}
+
+h1 {
+    color: #c35e0a;
+    text-align: center;
+}
+
+h2 {
+    color: #442e2d;
+}
+
+a {
+    color: #574833;
+}
+
+.container,
+.food_img {
+    margin: 0 auto;
+    width: 450px;
+}
+
+.dish-title,
+.card,
+.food_img {
+    padding: 8px;
+}
+
+.container.textcenter {
+    text-align: center;
+}
+
+.dish-title {
+    font-size: 40px;
+    border-bottom: 1px solid #574833;
+    margin: 8px;
+}
+
+.card {
+    border: 1px dashed;
+    border-radius: 2%;
+    margin: 8px;
+    background-color: #80aa9e;
+}
+
+.food_img {
+    height: auto;
+    display: block;
+}
